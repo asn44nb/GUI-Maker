@@ -7,7 +7,7 @@
 # @user
 
 # タグの存在を確認
-$execute unless data storage gui_maker: pages.enderchest.pages[{tag:"$(tag)"}] run tellraw @a {"color":"red","text":"指定したページが存在しません！/ tag : $(tag)"}
+$execute unless data storage gui_maker: pages.enderchest.pages[{tag:"$(tag)"}] run tellraw @a {"color":"red","text":"Belirtilen etiketli sayfa bulunamadı! / etiket: $(tag)"}
 $execute unless data storage gui_maker: pages.enderchest.pages[{tag:"$(tag)"}] run return -1
 
 # ページの中身を消去
