@@ -8,7 +8,7 @@
 
 
 # ページの存在を確認
-$execute unless data storage gui_maker: pages.enderchest.pages[{id:$(id)}] run tellraw @a {"color":"red","text":"指定したページが存在しません！/ ページ番号 : $(id)"}
+$execute unless data storage gui_maker: pages.enderchest.pages[{id:$(id)}] run tellraw @a {"color":"red","text":"Belirtilen sayfa bulunamadı! / Sayfa No: $(id)"}
 $execute unless data storage gui_maker: pages.enderchest.pages[{id:$(id)}] run return -1
 
 # ページの中身を消去
