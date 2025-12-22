@@ -6,7 +6,7 @@
 # @within gui_maker:editor_item/set_pagetag
 
 # 重複していたら弾く
-$execute if data storage gui_maker: pages.enderchest.pages[{tag:$(tag)}] run tellraw @a {"color":"red","text":"既にそのタグを持ったページが存在します！/ tag : $(tag)"}
+$execute if data storage gui_maker: pages.enderchest.pages[{tag:$(tag)}] run tellraw @a {"color":"red","text":"Bu etikete sahip bir sayfa zaten mevcut! / etiket: $(tag)"}
 $execute if data storage gui_maker: pages.enderchest.pages[{tag:$(tag)}] run return -1
 
 # タグを設定
