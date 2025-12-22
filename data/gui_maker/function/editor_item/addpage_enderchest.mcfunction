@@ -9,7 +9,7 @@ stopsound @s * ambient.basalt_deltas.additions
 advancement revoke @s only gui_maker:editor_item/addpage_enderchest
 
 # チェストの上に立っていないなら実行を中止
-execute unless block ~ ~ ~ chest run tellraw @s {"color":"red","italic":false,"text":"チェストの上に立って実行してください！"}
+execute unless block ~ ~ ~ chest run tellraw @s {"color":"red","italic":false,"text":"Lütfen bir sandığın üzerinde durarak çalıştırın!"}
 execute unless block ~ ~ ~ chest run return -1
 
 data modify storage gui_maker: input.addpage_enderchest.Items set from block ~ ~ ~ Items
