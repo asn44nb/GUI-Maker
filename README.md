@@ -16,4 +16,4 @@ Ayrıntılı rehber için [Wiki](https://github.com/asn44nb/GUI-Maker/wiki) sayf
 
 ## Lisans
 
-Bu depo (repository), [CC0-1.0 Lisansı](https://github.com/rukky321/gui_maker/blob/main/LICENSE) altında lisanslanmıştır.
+Bu depo (repository), [CC0-1.0 Lisansı](https://github.com/asn44nb/GUI-Maker/blob/main/LICENSE) altında lisanslanmıştır.
