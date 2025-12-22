@@ -12,7 +12,7 @@ Genel Minecraft veri paketlerinde olduğu gibi, bu paketi `datapacks` klasörün
 
 ## Kullanım
 
-Ayrıntılı rehber için [Wiki](https://github.com/rukky321/gui_maker/wiki) sayfasına göz atın.
+Ayrıntılı rehber için [Wiki](https://github.com/asn44nb/GUI-Maker/wiki) sayfasına göz atın.
 
 ## Lisans
 
