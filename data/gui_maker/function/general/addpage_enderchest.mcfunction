@@ -31,8 +31,9 @@ function gui_maker:general/addpage_enderchest/set_nextpage
 data modify storage gui_maker: pages.enderchest.pages append from storage gui_maker: tmp.general/addpage_enderchest.newpage
 
 # 追加内容の表示
-execute if data storage gui_maker: input.addpage_enderchest{showresult: 1b} run tellraw @a "新しいGUIページを追加しました"
-execute if data storage gui_maker: input.addpage_enderchest{showresult: 1b} run tellraw @a ["ページ番号 : ",{"nbt":"tmp.general/addpage_enderchest.newpage.id","storage":"gui_maker:"},"  タグ : ",{"nbt":"tmp.general/addpage_enderchest.newpage.tag","storage":"gui_maker:"}]
+execute if data storage gui_maker: input.addpage_enderchest{showresult: 1b} run tellraw @a "Yeni bir GUI sayfası eklendi"
+
+execute if data storage gui_maker: input.addpage_enderchest{showresult: 1b} run tellraw @a ["Sayfa No: ",{"nbt":"tmp.general/addpage_enderchest.newpage.id","storage":"gui_maker:"},"  Etiket: ",{"nbt":"tmp.general/addpage_enderchest.newpage.tag","storage":"gui_maker:"}]
 
 # リセット
 data remove storage gui_maker: tmp.general/addpage_enderchest
